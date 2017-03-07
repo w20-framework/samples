@@ -1,0 +1,17 @@
+# IDE
+.idea
+
+# Build only
+node_modules
+Gruntfile.js
+package.json
+bower.json
+
+# Information
+AUTHORS
+CONTRIBUTORS
+README.md
+
+# Dev only
+.jshintrc
+

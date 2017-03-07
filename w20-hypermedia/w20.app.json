@@ -1,0 +1,24 @@
+{
+    "ecommerce/ecommerce.w20.json": {},
+
+    "bower_components/w20-bootstrap-3/w20-bootstrap-3.w20.json": {},
+
+    "bower_components/w20/w20-core.w20.json": {
+        "modules": {
+            "application": {
+                "id": "products",
+                "home": "/ecommerce/products",
+                "blank": "/blank",
+                "notFound": "/not-found",
+                "redirectAfterRouteError": "/ecommerce/products"
+            },
+            "ui": {},
+            "hypermedia": {
+                "api": {
+                    "home": "http://localhost:8080/",
+                    "ecommerce": "@home"
+                }
+            }
+        }
+    }
+}
