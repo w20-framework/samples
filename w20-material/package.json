@@ -12,5 +12,9 @@
     "grunt": "^0.4.5",
     "grunt-contrib-connect": "^1.0.2",
     "grunt-contrib-jshint": "^1.1.0"
+  },
+  "dependencies": {
+    "w20": "^2.4.0-rc",
+    "w20-material-theme": "^1.1.0-rc.2"
   }
 }

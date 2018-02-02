@@ -15,5 +15,41 @@
       }
     },
     "node_modules/w20-material/w20-material.w20.json":{},
-    "node_modules/w20-material-theme/w20-material-theme.w20.json": {}
+    "node_modules/w20-material-theme/w20-material-theme.w20.json": {
+      "modules": {
+        "main": {
+          "sidenav": {
+            "logoUrl": "/home"
+          },
+    
+          "theme": {
+            "primaryPalette": {
+              "name": "indigo",
+              "hues": {
+                "default": "400",
+                "hue-1": "100",
+                "hue-3": "A100"
+              }
+            },
+    
+            "accentPalette": {
+              "name": "amber"
+            },
+    
+            "warnPalette": {
+              "name": "red",
+              "hues": {
+                "default": "400",
+                "hue-2": "600"
+              }
+            },
+    
+            "backgroundPalette": {
+              "name": "blue-grey"
+            },
+            "dark": true 
+          }
+        }
+      }
+    }
   }

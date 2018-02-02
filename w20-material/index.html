@@ -1,19 +1,21 @@
-<!doctype html>
+<!DOCTYPE html>
 <html data-w20-app>
 <head>
-    <title>W20 POSS demo</title>
-    <script
-            type="text/javascript"
-            data-main="node_modules/w20/modules/w20"
-            src="node_modules/requirejs/require.js">
-    </script>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <title>W20 Material Theme Test</title>
+  <script type="text/javascript" data-main="node_modules/w20/modules/w20" src="node_modules/requirejs/require.js"></script>
 </head>
-<body>
-    <div id="w20-loading-cloak" style="position:fixed; top: 0; bottom: 0; left: 0; right: 0; background-color: white; z-index: 999999;"></div>
-
-    <div data-w20-topbar data-title="'W20'" data-subtitle="'material sample'"></div>
-    <div data-w20-sidebar></div>
-
-    <div id="w20-view" class="w20-content" data-ng-view></div>
+<body layout ng-cloak>
+  <div id="w20-loading-cloak">
+    <div class="w20-loading-indicator"></div>
+  </div>
+  <w20-material-sidenav></w20-material-sidenav>
+  <main layout="column" flex>
+    <w20-material-topbar search-placeholder="app.i18n.topbar.search.placeholder"></w20-material-topbar>
+    <md-content ng-view layout="column" layout-align="start center" flex></md-content>
+  </main>
+  <div data-w20-error-report></div>
 </body>
 </html>
