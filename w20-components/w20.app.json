@@ -1,0 +1,62 @@
+{
+    "sample/sample.w20.json":{
+        
+    },
+    "select/select.w20.json":{
+        
+    },
+    "form/form.w20.json":{
+        
+    },
+    "node_modules/w20/w20-core.w20.json" : {
+        "modules" : {
+            "application":{
+                "id":"w20-grid-sample",
+                "home":"/sample/sample"
+            },
+            "culture": {
+                "available": [
+                    "en",
+                    "fr"
+                ],
+                "default": "en"
+            },
+            "env": {
+                "type": "test"
+            },
+            "utils": {},
+            "notifications": {
+                "disableNotifications": false,
+                "position": "bottom-right",
+                "limit": 10,
+                "options": {}
+            },
+            "ui": {
+                "expandedRouteCategories": []
+            }
+        }
+    },
+
+    "node_modules/w20-components/w20-components.w20.json": {
+        "modules": {
+            "select": {},
+            "grid": {},
+            "forms": {}
+        }
+    },
+    "node_modules/w20-bootstrap-3/w20-bootstrap-3.w20.json": {},
+    "node_modules/w20-business-theme/w20-business-theme.w20.json": {
+        "modules": {
+            "main": {
+                "sidebar": {
+                    "width": 270
+                },
+                "links": [
+                ],
+                "hideConnectivity": true,
+                "hideCulture": false,
+                "hideSecurity": true
+            }
+        }
+    }
+}

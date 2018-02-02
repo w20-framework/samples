@@ -1,0 +1,19 @@
+{
+    "node_modules/w20/w20-core.w20.json": {
+      "modules": {
+        "application": {
+          "id": "w20-material-sample",
+          "home": "/demo/hello"
+        },
+        "culture": {
+          "available": [
+            "en-US",
+            "fr-FR"
+          ],
+          "default": "en-US"
+        }
+      }
+    },
+    "node_modules/w20-material/w20-material.w20.json":{},
+    "node_modules/w20-material-theme/w20-material-theme.w20.json": {}
+  }

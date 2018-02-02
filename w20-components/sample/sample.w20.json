@@ -1,0 +1,20 @@
+{
+    "id":"sample",
+    "name":"Grid sample",
+    "modules":{
+        "sample":{
+            "path":"{sample}/modules/sample",
+            "autoload":true
+        }
+    },
+    "routes": {
+        "sample":{
+            "templateUrl":"{sample}/views/sample.html",
+            "controller":"SampleController"
+        }
+    },
+    "i18n": {
+        "en": ["{sample}/i18n/messages-en.json"],
+        "fr": ["{sample}/i18n/messages-fr.json"]
+    }
+}
