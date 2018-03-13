@@ -1,0 +1,20 @@
+{
+    "id":"form",
+    "name":"Form sample",
+    "modules":{
+        "sample":{
+            "path":"{form}/modules/sample",
+            "autoload":true
+        }
+    },
+    "routes": {
+        "sample":{
+            "templateUrl":"{form}/views/sample.html",
+            "controller":"SelectController"
+        }
+    },
+    "i18n": {
+        "en": ["{form}/i18n/messages-en.json"],
+        "fr": ["{form}/i18n/messages-fr.json"]
+    }
+}

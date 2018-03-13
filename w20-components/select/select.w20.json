@@ -1,0 +1,20 @@
+{
+    "id":"select",
+    "name":"Select sample",
+    "modules":{
+        "sample":{
+            "path":"{select}/modules/sample",
+            "autoload":true
+        }
+    },
+    "routes": {
+        "sample":{
+            "templateUrl":"{select}/views/sample.html",
+            "controller":"SelectController"
+        }
+    },
+    "i18n": {
+        "en": ["{select}/i18n/messages-en.json"],
+        "fr": ["{select}/i18n/messages-fr.json"]
+    }
+}

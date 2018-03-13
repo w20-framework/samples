@@ -1,0 +1,11 @@
+<div class="container-fluid" ng-controller="FormController as ctrl">
+    <!-- Jumbotron Header -->
+    <header>
+        <h1>{{ 'application.view.form.welcome' | localize }}</h1>
+    </header>
+    <form data-ng-submit="ctrl.form.submit()" name="form">
+        <span data-w20-form data-model="ctrl.form.model" data-fields="ctrl.form.fields">
+            <button class="btn btn-primary" type="submit">Submit</button>
+        </span>
+    </form>
+</div>

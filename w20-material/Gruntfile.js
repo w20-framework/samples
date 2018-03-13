@@ -6,7 +6,7 @@ module.exports = function (grunt) {
         pkg: grunt.file.readJSON('package.json'),
         jshint: {
             fragment_sample: {
-                src: ['fragment_sample/modules/**/*.js']
+                src: ['material-sample/modules/**/*.js']
             }
         },
         connect: {

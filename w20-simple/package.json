@@ -1,0 +1,26 @@
+{
+  "name": "w20-simple",
+  "version": "1.0.0-rc.1",
+  "description": "sample w20 simple theme",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "w20",
+    "sample",
+    "theme"
+  ],
+  "author": "Jose Manuel Martinez",
+  "license": "MPL-2.0",
+  "dependencies": {
+    "w20": "~2.4.0-rc",
+    "w20-bootstrap-3": "~2.3.0-rc",
+    "w20-simple-theme":"~3.3.0-rc"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-connect": "^1.0.2",
+    "grunt-contrib-jshint": "^1.1.0"
+  }
+}
