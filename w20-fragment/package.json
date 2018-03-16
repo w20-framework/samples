@@ -22,8 +22,8 @@
     "requirejs": "~2.1"
   },
   "dependencies": {
-    "w20": "~2.4.0-rc",
-    "w20-bootstrap-3": "~2.3.0-rc",
-    "w20-business-theme":"~1.3.0-rc"
+    "w20": "git+https://github.com/jmmartinez84/w20.git",
+    "w20-bootstrap-3": "git+https://github.com/jmmartinez84/w20-bootstrap-3.git",
+    "w20-business-theme": "git+https://github.com/jmmartinez84/w20-business-theme.git"
   }
 }

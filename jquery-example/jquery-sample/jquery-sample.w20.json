@@ -1,0 +1,46 @@
+{
+    "id": "jquery-sample",
+    "name": "W20 jquery sample",
+    "modules": {
+      "sample": "{jquery-sample}/modules/sample"
+    },
+    "i18n": {
+      "en": [ "{jquery-sample}/i18n/messages-en.json"],
+      "fr": [ "{jquery-sample}/i18n/messages-fr.json"]
+    },
+    "routes": {
+      "hello": {
+        "template": "<div class=\"container\"><h1>Hello World!</h1></div>",
+        "hidden": false
+      },
+      "sample": {
+        "templateUrl": "{jquery-sample}/views/sample.html",
+        "controller": "SampleController"
+      },
+      "accordion":{
+        "templateUrl": "{jquery-sample}/views/accordion.html",
+        "controller": "AccordionController",
+        "category": "bootstrap"
+      },
+      "alert":{
+        "templateUrl": "{jquery-sample}/views/alert.html",
+        "controller": "AlertController",
+        "category": "bootstrap"
+      },
+      "buttons":{
+        "templateUrl": "{jquery-sample}/views/buttons.html",
+        "controller": "ButtonsController",
+        "category": "bootstrap"
+      },
+      "datepicker":{
+        "templateUrl": "{jquery-sample}/views/datepicker.html",
+        "controller": "DatePickerController",
+        "category": "bootstrap"
+      },
+      "modal":{
+        "templateUrl": "{jquery-sample}/views/modal.html",
+        "controller": "ModalController",
+        "category": "bootstrap"
+      }
+    }
+  }
