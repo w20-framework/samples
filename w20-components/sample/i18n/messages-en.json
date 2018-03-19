@@ -1,4 +1,10 @@
 {
     "application.view.sample.sample": "Grid",
-    "application.view.sample.welcome":"Grid"
+    "application.view.sample.welcome":"Grid",
+    "grid.header.firstName": "First Name",
+    "grid.header.lastName": "Last Name",
+    "grid.header.company": "Company",
+    "grid.header.employed": "Employed",
+    "grid.content.employed.true": "Yes",
+    "grid.content.employed.false": "No"
 }

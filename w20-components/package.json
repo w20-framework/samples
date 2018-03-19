@@ -9,8 +9,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "w20": "^2.4.0-rc",
-    "w20-business-theme": "^1.3.0-rc",
+    "ui-select": "git+https://github.com/angular-ui/ui-select.git",
+    "w20": "git+https://github.com/jmmartinez84/w20.git",
+    "w20-bootstrap-3": "git+https://github.com/jmmartinez84/w20-bootstrap-3.git",
+    "w20-business-theme": "git+https://github.com/jmmartinez84/w20-business-theme.git",
     "w20-components": "^2.3.0-rc"
   },
   "devDependencies": {
