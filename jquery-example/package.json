@@ -1,0 +1,35 @@
+{
+  "name": "jquery-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "angular-mocks": "^1.6.9",
+    "grunt": "^1.0.1",
+    "grunt-contrib-clean": "^1.1.0",
+    "grunt-contrib-connect": "^0.11.2",
+    "grunt-contrib-jshint": "~1.1.0",
+    "grunt-coveralls": "^1.0.0",
+    "grunt-karma": "^1.0.0",
+    "grunt-ngdocs": "^0.2.8",
+    "jasmine-core": "~2.4",
+    "karma": "~0.13",
+    "karma-coverage": "^1.1.1",
+    "karma-jasmine": "~0.3.1",
+    "karma-phantomjs-launcher": "^1.0.4",
+    "karma-phantomjs-shim": "~1.2.0",
+    "karma-requirejs": "~0.2",
+    "phantomjs-polyfill": "0.0.1",
+    "phantomjs-prebuilt": "^2.1.4"
+  },
+  "dependencies": {
+    "w20": "git+https://github.com/jmmartinez84/w20.git",
+    "w20-bootstrap-3": "git+https://github.com/jmmartinez84/w20-bootstrap-3.git",
+    "w20-business-theme": "git+https://github.com/jmmartinez84/w20-business-theme.git"
+  }
+}

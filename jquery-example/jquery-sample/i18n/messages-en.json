@@ -1,0 +1,11 @@
+{
+    "application.view.jquery-sample.hello": "Hello",
+    "application.view.jquery-sample.sample": "Sample",
+    "application.view.jquery-sample.jquerylabel": "jQuery version:",
+    "application.viewcategory.bootstrap":"Bootstrap",
+    "application.view.jquery-sample.accordion":"Accordion",
+    "application.view.jquery-sample.alert":"Alert",
+    "application.view.jquery-sample.buttons":"Buttons",
+    "application.view.jquery-sample.datepicker":"Datepicker",
+    "application.view.jquery-sample.modal":"Modal"
+}
